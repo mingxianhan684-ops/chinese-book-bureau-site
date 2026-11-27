@@ -1,0 +1,673 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>关于我们 | 北美中国书局出版社</title>
+  <meta name="description" content="了解北美中国书局出版社的使命、出版方向与编辑理念。">
+
+  <style>
+    :root {
+      --red: #9b1c31;
+      --red-dark: #4b1720;
+      --red-light: #fff1f0;
+      --ink: #312326;
+      --muted: #706164;
+      --line: #eadfe0;
+      --paper: #ffffff;
+      --background: #fbf8f7;
+      --gold: #b88a39;
+      --shadow: 0 10px 30px rgba(90, 23, 34, 0.10);
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--background);
+      font-family: Arial, "Microsoft YaHei", sans-serif;
+      line-height: 1.75;
+    }
+
+    a { color: inherit; text-decoration: none; }
+    button, input { font: inherit; }
+    button { cursor: pointer; }
+
+    .wrap {
+      width: min(1240px, calc(100% - 36px));
+      margin: 0 auto;
+    }
+
+    .topbar {
+      color: #fff;
+      background: var(--red-dark);
+      font-size: 13px;
+    }
+
+    .topbar-inner,
+    .header-inner,
+    .nav-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .topbar-inner { min-height: 36px; }
+
+    .topbar-actions {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .language-button {
+      padding: 4px 11px;
+      color: #fff;
+      background: transparent;
+      border: 1px solid #ffffff70;
+      border-radius: 4px;
+    }
+
+    .header {
+      background: var(--paper);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .header-inner {
+      min-height: 92px;
+      gap: 24px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 11px;
+      flex: 1;
+      min-width: 250px;
+    }
+
+    .brand-logo { width: 50px; height: 50px; flex: none; }
+
+    .brand-name {
+      font-family: Georgia, "Noto Serif SC", serif;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 1.15;
+    }
+
+    .brand-name small {
+      display: block;
+      margin-top: 5px;
+      color: var(--muted);
+      font-family: Arial, sans-serif;
+      font-size: 9px;
+      letter-spacing: .06em;
+      font-weight: 400;
+    }
+
+    .search {
+      position: relative;
+      display: flex;
+      flex: 1.4;
+      max-width: 560px;
+    }
+
+    .search input {
+      width: 100%;
+      height: 45px;
+      padding: 0 52px 0 15px;
+      border: 1px solid #d7c9cb;
+      border-radius: 5px;
+      outline: none;
+    }
+
+    .search button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 48px;
+      height: 45px;
+      color: #fff;
+      background: var(--red);
+      border: 0;
+      border-radius: 0 5px 5px 0;
+      font-size: 20px;
+    }
+
+    .header-actions {
+      display: flex;
+      gap: 17px;
+      white-space: nowrap;
+    }
+
+    .header-actions a { font-size: 14px; }
+    .header-actions a:hover { color: var(--red); }
+
+    nav {
+      position: relative;
+      z-index: 10;
+      background: #fff;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .nav-inner {
+      min-height: 49px;
+      justify-content: flex-start;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      flex-wrap: nowrap;
+    }
+
+    .nav-link {
+      display: inline-flex;
+      align-items: center;
+      padding: 13px 0;
+      font-size: 14px;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+
+    .nav-link:hover,
+    .nav-link.active { color: var(--red); }
+
+    .mobile-menu { display: none; }
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      color: #fff;
+      background:
+        linear-gradient(90deg, rgba(51,13,23,.94), rgba(75,23,32,.74)),
+        url("https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=1800&q=85") center/cover;
+    }
+
+    .hero::after {
+      position: absolute;
+      right: -100px;
+      bottom: -180px;
+      width: 440px;
+      height: 440px;
+      content: "";
+      border: 1px solid #ffffff30;
+      border-radius: 50%;
+    }
+
+    .hero-inner {
+      position: relative;
+      z-index: 1;
+      padding: 80px 0 84px;
+    }
+
+    .eyebrow {
+      color: #f0c97f;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+    }
+
+    .hero h1 {
+      max-width: 920px;
+      margin: 16px 0 13px;
+      font: 700 clamp(35px, 5vw, 64px)/1.18 Georgia, "Noto Serif SC", serif;
+    }
+
+    .hero p {
+      max-width: 730px;
+      margin: 0;
+      color: #f2e5e7;
+      font-size: 18px;
+    }
+
+    .section { padding: 70px 0; }
+    .section.white { background: #fff; }
+    .section.red-light { background: var(--red-light); }
+
+    .section-title {
+      margin: 0 0 12px;
+      color: var(--red);
+      font: 700 clamp(30px, 4vw, 44px)/1.25 Georgia, "Noto Serif SC", serif;
+    }
+
+    .section-subtitle {
+      max-width: 760px;
+      margin: 0 0 32px;
+      color: var(--muted);
+      font-size: 17px;
+    }
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1.15fr .85fr;
+      gap: 50px;
+      align-items: center;
+    }
+
+    .about-copy p { margin: 0 0 16px; font-size: 17px; }
+
+    .quote-card {
+      padding: 38px;
+      color: #fff;
+      background: var(--red-dark);
+      border-radius: 10px;
+      box-shadow: var(--shadow);
+    }
+
+    .quote-mark {
+      color: var(--gold);
+      font: 700 64px/1 Georgia, serif;
+    }
+
+    .quote-card strong {
+      display: block;
+      margin-top: -10px;
+      font: 700 27px/1.45 Georgia, "Noto Serif SC", serif;
+    }
+
+    .quote-card span {
+      display: block;
+      margin-top: 18px;
+      color: #e9d6d9;
+      font-size: 14px;
+    }
+
+    .focus-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 18px;
+    }
+
+    .focus-card {
+      padding: 28px 23px;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-top: 4px solid var(--red);
+      border-radius: 8px;
+      box-shadow: 0 5px 18px rgba(90,23,34,.06);
+    }
+
+    .focus-icon {
+      display: grid;
+      place-items: center;
+      width: 44px;
+      height: 44px;
+      margin-bottom: 18px;
+      color: #fff;
+      background: var(--red);
+      border-radius: 50%;
+      font-weight: 700;
+    }
+
+    .focus-card h3 {
+      margin: 0 0 8px;
+      font: 700 20px Georgia, "Noto Serif SC", serif;
+    }
+
+    .focus-card p { margin: 0; color: var(--muted); }
+
+    .philosophy-grid {
+      display: grid;
+      grid-template-columns: .9fr 1.1fr;
+      gap: 45px;
+      align-items: stretch;
+    }
+
+    .philosophy-image {
+      min-height: 420px;
+      background:
+        linear-gradient(0deg, rgba(48,15,23,.45), rgba(48,15,23,.05)),
+        url("https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=1200&q=85") center/cover;
+      border-radius: 10px;
+    }
+
+    .philosophy-copy {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 38px;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+    }
+
+    .principle {
+      padding: 15px 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .principle:last-child { border-bottom: 0; }
+    .principle strong { color: var(--red); font-size: 18px; }
+    .principle p { margin: 4px 0 0; color: var(--muted); }
+
+    .books-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+    }
+
+    .book-tile {
+      min-height: 300px;
+      display: flex;
+      align-items: flex-end;
+      padding: 22px;
+      color: #fff;
+      border-radius: 9px;
+      box-shadow: var(--shadow);
+    }
+
+    .book-tile:nth-child(1) { background: linear-gradient(145deg,#713039,#d39a54); }
+    .book-tile:nth-child(2) { background: linear-gradient(145deg,#2f2639,#9b1c31); }
+    .book-tile:nth-child(3) { background: linear-gradient(145deg,#47301d,#b88a39); }
+    .book-tile:nth-child(4) { background: linear-gradient(145deg,#183c55,#6d8fa3); }
+
+    .book-tile small { color: #f3dcae; }
+    .book-tile h3 { margin: 5px 0 0; font: 700 22px/1.3 Georgia, "Noto Serif SC", serif; }
+
+    .contact {
+      padding: 42px;
+      color: #fff;
+      background: var(--red-dark);
+      border-radius: 11px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 30px;
+    }
+
+    .contact h2 { margin: 0 0 7px; font: 700 30px Georgia, "Noto Serif SC", serif; }
+    .contact p { margin: 0; color: #ead8db; }
+
+    .contact-button {
+      flex: none;
+      padding: 12px 18px;
+      color: var(--red-dark);
+      background: #fff;
+      border-radius: 5px;
+      font-weight: 700;
+    }
+
+    footer {
+      margin-top: 70px;
+      padding: 30px 0;
+      color: #d9c6c9;
+      background: #32131b;
+      font-size: 13px;
+    }
+
+    .footer-inner {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    @media (max-width: 950px) {
+      .header-inner { flex-wrap: wrap; padding: 13px 0; }
+      .search { order: 3; flex-basis: 100%; max-width: none; }
+      .focus-grid, .books-grid { grid-template-columns: repeat(2, 1fr); }
+      .nav-links { gap: 18px; }
+    }
+
+    @media (max-width: 680px) {
+      .wrap { width: calc(100% - 28px); }
+      .topbar-inner { gap: 10px; }
+      .topbar-inner > span { display: none; }
+      .topbar-actions { width: 100%; justify-content: flex-end; }
+      .brand { min-width: 0; }
+      .brand-name { font-size: 14px; }
+      .header-actions { width: 100%; justify-content: flex-end; }
+      .mobile-menu {
+        display: block;
+        padding: 8px 10px;
+        background: #fff;
+        border: 1px solid var(--line);
+        border-radius: 4px;
+      }
+      .nav-inner { min-height: 48px; justify-content: flex-end; }
+      .nav-links {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        left: 0;
+        display: none;
+        padding: 8px 18px;
+        background: #fff;
+        border-bottom: 1px solid var(--line);
+        box-shadow: var(--shadow);
+      }
+      nav.mobile-open .nav-links { display: grid; }
+      .nav-link { padding: 10px 0; border-bottom: 1px solid #f0e8e9; }
+      .hero-inner { padding: 58px 0 62px; }
+      .hero p { font-size: 16px; }
+      .section { padding: 50px 0; }
+      .about-grid, .philosophy-grid { grid-template-columns: 1fr; }
+      .philosophy-image { min-height: 280px; }
+      .focus-grid, .books-grid { grid-template-columns: 1fr; }
+      .contact { align-items: flex-start; flex-direction: column; padding: 30px 24px; }
+      .footer-inner { flex-direction: column; }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="topbar">
+    <div class="wrap topbar-inner">
+      <span data-zh="北美中国书局出版社 · 让好书连接文化与读者"
+            data-en="North America China Book Bureau Press · Connecting readers through books"></span>
+      <div class="topbar-actions">
+        <a href="#contact" data-zh="联系我们" data-en="Contact Us"></a>
+        <button class="language-button" id="languageButton" type="button">English</button>
+      </div>
+    </div>
+  </div>
+
+  <header class="header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html" aria-label="返回首页">
+        <svg class="brand-logo" viewBox="0 0 64 64" aria-hidden="true">
+          <circle cx="32" cy="32" r="30" fill="#fff9f8" stroke="#eadfe0" stroke-width="2"/>
+          <path d="M13 19c7-3 14-2 19 2 5-4 12-5 19-2v26c-7-3-14-2-19 2-5-4-12-5-19-2V19Z" fill="#9b1c31"/>
+          <path d="M32 21v25M18 25c4-1 7-1 10 1M18 31c4-1 7-1 10 1M36 26c3-2 6-2 10-1M36 32c3-2 6-2 10-1" fill="none" stroke="#fff" stroke-width="1.6"/>
+          <path d="m32 7 2 5 5 .5-4 3 1.4 5-4.4-2.7-4.4 2.7 1.4-5-4-3 5-.5Z" fill="#b88a39"/>
+        </svg>
+        <span class="brand-name" id="brandName">
+          北美中国书局出版社
+          <small>NORTH AMERICA CHINA BOOK BUREAU PRESS</small>
+        </span>
+      </a>
+
+      <form class="search" action="index.html" method="get">
+        <input name="q" type="search" id="searchInput" placeholder="搜索你想找的书……" aria-label="搜索图书">
+        <button type="submit" aria-label="搜索">⌕</button>
+      </form>
+
+      <div class="header-actions">
+        <a href="index.html" data-zh="返回首页" data-en="Home"></a>
+        <a href="index.html#new-books" data-zh="浏览图书" data-en="Browse Books"></a>
+      </div>
+    </div>
+  </header>
+
+  <nav id="navigation">
+    <div class="wrap nav-inner">
+      <button class="mobile-menu" id="mobileMenu" type="button" aria-expanded="false"
+              data-zh="☰ 菜单" data-en="☰ Menu"></button>
+      <div class="nav-links">
+        <a class="nav-link" href="index.html#categories" data-zh="按类别浏览我们的图书" data-en="Browse by Category"></a>
+        <a class="nav-link" href="index.html#new-books" data-zh="新书" data-en="New Books"></a>
+        <a class="nav-link" href="index.html#submissions" data-zh="投稿" data-en="Submissions"></a>
+        <a class="nav-link" href="index.html#catalog" data-zh="目录" data-en="Catalog"></a>
+        <a class="nav-link active" href="about.html" data-zh="关于我们" data-en="About Us"></a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero">
+      <div class="wrap hero-inner">
+        <span class="eyebrow" data-zh="关于北美中国书局出版社" data-en="About North America China Book Bureau Press"></span>
+        <h1 data-zh="让中文书走向世界，让世界读懂中国。"
+            data-en="Bringing Chinese books to the world—and helping the world understand China."></h1>
+        <p data-zh="以思想为根，以文化为魂。我们通过出版连接作者与读者，让有价值的文字跨越语言、地域与时代。"
+           data-en="Rooted in thought and inspired by culture, we connect authors and readers through books that cross languages, borders, and generations."></p>
+      </div>
+    </section>
+
+    <section class="section white" id="about">
+      <div class="wrap about-grid">
+        <div class="about-copy">
+          <h2 class="section-title" data-zh="关于我们" data-en="About Us"></h2>
+          <p data-zh="北美中国书局出版社是一家专注于文化与思想传播的综合性出版机构。自成立以来，我们秉持“以文字传存精神，以出版塑造时代”的理念，致力于推出兼具思想性、艺术性与时代感的优质出版物。"
+             data-en="North America China Book Bureau Press is a comprehensive publishing house devoted to the communication of culture and ideas. Since our founding, we have upheld the belief that words preserve the spirit and publishing helps shape the times."></p>
+          <p data-zh="我们的出版范围涵盖文学作品、历史文献、学术专著、艺术人文、教育成长以及少儿读物等多个领域。"
+             data-en="Our publishing program spans literature, history, academic works, arts and humanities, education and personal growth, and books for young readers."></p>
+          <p data-zh="我们注重编辑品质与视觉设计的结合，坚持以内容打动读者，以品质赢得信任，让每一本书都成为作者思想与读者心灵之间的桥梁。"
+             data-en="We unite editorial excellence with thoughtful design, earning readers’ trust through meaningful content and high publishing standards. Every book should become a bridge between an author’s ideas and a reader’s heart."></p>
+        </div>
+
+        <aside class="quote-card">
+          <div class="quote-mark">“</div>
+          <strong data-zh="出版，不只是印刷文字的技艺，更是传递思想与记忆的桥梁。"
+                  data-en="Publishing is more than printing words; it is a bridge that carries ideas and memories."></strong>
+          <span data-zh="北美中国书局出版社" data-en="North America China Book Bureau Press"></span>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section red-light" id="focus">
+      <div class="wrap">
+        <h2 class="section-title" data-zh="出版方向" data-en="Publishing Focus"></h2>
+        <p class="section-subtitle"
+           data-zh="我们关注有思想深度、有文化价值，也能与当代读者产生联系的作品。"
+           data-en="We publish works with intellectual depth, cultural value, and a meaningful connection to readers today."></p>
+
+        <div class="focus-grid">
+          <article class="focus-card">
+            <div class="focus-icon">文</div>
+            <h3 data-zh="人文与思想" data-en="Humanities & Thought"></h3>
+            <p data-zh="探索文明脉络，呈现思想的光芒。" data-en="Exploring civilization and illuminating the life of ideas."></p>
+          </article>
+          <article class="focus-card">
+            <div class="focus-icon">艺</div>
+            <h3 data-zh="文学与艺术" data-en="Literature & Art"></h3>
+            <p data-zh="以文字与审美融合，传递真实情感。" data-en="Uniting language and aesthetics to convey beauty and emotion."></p>
+          </article>
+          <article class="focus-card">
+            <div class="focus-icon">史</div>
+            <h3 data-zh="历史与记忆" data-en="History & Memory"></h3>
+            <p data-zh="重现历史温度，让时代记忆延续。" data-en="Revealing the warmth of the past and keeping memory alive."></p>
+          </article>
+          <article class="focus-card">
+            <div class="focus-icon">教</div>
+            <h3 data-zh="教育与启蒙" data-en="Education & Enlightenment"></h3>
+            <p data-zh="关注知识、成长与面向未来的学习精神。" data-en="Nurturing knowledge, growth, and the spirit of learning."></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section white" id="philosophy">
+      <div class="wrap philosophy-grid">
+        <div class="philosophy-image" role="img" aria-label="书写与编辑"></div>
+        <div class="philosophy-copy">
+          <h2 class="section-title" data-zh="编辑理念" data-en="Editorial Philosophy"></h2>
+          <div class="principle">
+            <strong data-zh="尊重每一位作者的声音" data-en="Honor every author’s voice"></strong>
+            <p data-zh="我们相信每一本书都有自己的呼吸与灵魂。" data-en="We believe every book breathes with a life and soul of its own."></p>
+          </div>
+          <div class="principle">
+            <strong data-zh="守护思想与语言" data-en="Safeguard ideas and language"></strong>
+            <p data-zh="编辑不仅是修辞的工匠，更是思想的守护者。" data-en="Editors are not only craftspeople of language, but guardians of thought."></p>
+          </div>
+          <div class="principle">
+            <strong data-zh="坚持原创与真诚" data-en="Value originality and sincerity"></strong>
+            <p data-zh="追求语言的纯粹与表达的真诚，让阅读重新成为人与人之间温柔的联系。"
+               data-en="We value clarity, sincerity, and originality, restoring reading as a gentle connection between people."></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="books">
+      <div class="wrap">
+        <h2 class="section-title" data-zh="我们的出版作品" data-en="Our Publications"></h2>
+        <p class="section-subtitle"
+           data-zh="从文化、历史到文学与生活，我们努力让每一本书都有清晰的价值与独特的声音。"
+           data-en="From culture and history to literature and everyday life, each title carries a distinct voice and purpose."></p>
+
+        <div class="books-grid">
+          <article class="book-tile"><div><small data-zh="文化与旅行" data-en="Culture & Travel"></small><h3 data-zh="走进西藏" data-en="A Journey Through Tibet"></h3></div></article>
+          <article class="book-tile"><div><small data-zh="传统文化" data-en="Traditional Culture"></small><h3 data-zh="杨式太极·杨露禅" data-en="Yang-Style Tai Chi: Yang Luchan"></h3></div></article>
+          <article class="book-tile"><div><small data-zh="艺术与历史" data-en="Art & History"></small><h3 data-zh="西方歌剧发展史" data-en="A History of Western Opera"></h3></div></article>
+          <article class="book-tile"><div><small data-zh="文学小说" data-en="Literary Fiction"></small><h3 data-zh="生日" data-en="Birthday"></h3></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap contact" id="contact">
+      <div>
+        <h2 data-zh="与我们保持联系" data-en="Let’s Keep in Touch"></h2>
+        <p data-zh="欢迎作者、读者与合作伙伴联系我们，共同推动有价值的作品走向更广阔的世界。"
+           data-en="Authors, readers, and partners are welcome to contact us and help bring meaningful books to a wider world."></p>
+      </div>
+      <a class="contact-button" href="mailto:info@chineseebook.com"
+         data-zh="发送电子邮件" data-en="Send an Email"></a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-inner">
+      <span>© 2026 North America China Book Bureau Press LLC</span>
+      <span data-zh="让好书连接文化与世界" data-en="Books connect cultures and the world"></span>
+    </div>
+  </footer>
+
+  <script>
+    let language = "zh";
+
+    function setLanguage(nextLanguage) {
+      language = nextLanguage;
+      document.documentElement.lang = language === "zh" ? "zh-CN" : "en";
+
+      document.querySelectorAll("[data-zh][data-en]").forEach(element => {
+        element.textContent = language === "zh"
+          ? element.dataset.zh
+          : element.dataset.en;
+      });
+
+      document.getElementById("languageButton").textContent =
+        language === "zh" ? "English" : "中文";
+
+      document.getElementById("searchInput").placeholder =
+        language === "zh" ? "搜索你想找的书……" : "Search for a book…";
+
+      document.getElementById("brandName").innerHTML = language === "zh"
+        ? '北美中国书局出版社<small>NORTH AMERICA CHINA BOOK BUREAU PRESS</small>'
+        : 'North America China Book Bureau Press<small>北美中国书局出版社</small>';
+
+      document.title = language === "zh"
+        ? "关于我们 | 北美中国书局出版社"
+        : "About Us | North America China Book Bureau Press";
+    }
+
+    document.getElementById("languageButton").addEventListener("click", () => {
+      setLanguage(language === "zh" ? "en" : "zh");
+    });
+
+    const navigation = document.getElementById("navigation");
+    const mobileMenu = document.getElementById("mobileMenu");
+
+    mobileMenu.addEventListener("click", () => {
+      const isOpen = navigation.classList.toggle("mobile-open");
+      mobileMenu.setAttribute("aria-expanded", String(isOpen));
+    });
+
+    setLanguage("zh");
+  </script>
+</body>
+</html>
