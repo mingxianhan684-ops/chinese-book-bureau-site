@@ -610,4 +610,49 @@ window.BOOKS = [
     isbnEbook: "",
     amazonUrl: ""
   }
+,
+  {
+    id: "my-gay-friend-volume-1",
+
+    titleZh: "我的同性恋朋友：理解、接纳与支持（第一卷）",
+    titleEn: "My Gay Friend: A Scientific Guide to Understanding, Acceptance, and Support — Volume One",
+
+    authorZh: "陈子平教授",
+    authorEn: "Professor Chen Ziping",
+
+    category: "society-culture",
+    categoryZh: "社会与文化",
+    categoryEn: "Society & Culture",
+
+    tags: [
+      "同性恋",
+      "性少数群体",
+      "理解",
+      "接纳",
+      "家庭支持",
+      "心理健康",
+      "LGBTQ",
+      "acceptance",
+      "family support",
+      "mental health"
+    ],
+
+    descriptionZh: "一本从科学知识、家庭支持、心理健康和社会理解等角度介绍同性恋群体的指南，倡导理解、接纳、尊重与支持。",
+    descriptionEn: "A scientific guide to understanding and supporting gay people through education, family support, mental health awareness, and inclusive social perspectives.",
+
+    formats: ["paperback"],
+    formatZh: "纸书",
+    formatEn: "Print",
+
+    publishDate: "2024",
+    featured: false,
+    comingSoon: false,
+
+    coverImage: "data/images/books/my-gay-friend-volume-1.jpg",
+
+    isbnPaperback: "",
+    isbnHardcover: "",
+    isbnEbook: "",
+    amazonUrl: ""
+  }
 ];
