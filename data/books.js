@@ -655,4 +655,51 @@ window.BOOKS = [
     isbnEbook: "",
     amazonUrl: ""
   }
+,
+  {
+    id: "entering-behavioral-economics",
+
+    titleZh: "走进行为经济学",
+    titleEn: "Entering Behavioral Economics",
+
+    subtitleZh: "从理性人的神话到人类选择的现实",
+    subtitleEn: "From the Myth of Rational Man to the Reality of Human Choice",
+
+    authorZh: "韩京",
+    authorEn: "Han Jing",
+
+    category: "economics-business",
+    categoryZh: "经济与商业",
+    categoryEn: "Economics & Business",
+
+    tags: [
+      "行为经济学",
+      "经济决策",
+      "心理学",
+      "人类选择",
+      "财富",
+      "behavioral economics",
+      "decision making",
+      "psychology",
+      "human choice"
+    ],
+
+    descriptionZh: "一本介绍行为经济学核心思想的作品，分析心理、情绪与认知偏差如何影响个人的经济选择和财富决策。",
+    descriptionEn: "An introduction to behavioral economics examining how psychology, emotion, and cognitive bias influence economic choices and financial decisions.",
+
+    formats: ["paperback"],
+    formatZh: "纸书",
+    formatEn: "Print",
+
+    publishDate: "",
+    featured: true,
+    comingSoon: false,
+
+    coverImage: "data/images/books/entering-behavioral-economics.jpg",
+
+    isbnPaperback: "",
+    isbnHardcover: "",
+    isbnEbook: "",
+    amazonUrl: ""
+  }
 ];
