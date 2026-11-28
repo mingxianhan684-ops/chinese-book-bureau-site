@@ -1496,4 +1496,48 @@ coverImages: [
     isbnEbook: "",
     amazonUrl: ""
   }
+,
+  {
+    id: "porcelain-capital-jingdezhen",
+
+    titleZh: "瓷都·景德镇",
+    titleEn: "Porcelain Capital: Jingdezhen",
+
+    authorZh: "韩京、黄书城",
+    authorEn: "Han Jing & Huang Shucheng",
+
+    category: "culture-travel",
+    categoryZh: "文化、艺术与旅游",
+    categoryEn: "Culture, Art & Travel",
+
+    tags: [
+      "景德镇",
+      "瓷器",
+      "陶瓷艺术",
+      "传统工艺",
+      "中国文化",
+      "Jingdezhen",
+      "porcelain",
+      "ceramic art",
+      "traditional crafts"
+    ],
+
+    descriptionZh: "一部介绍景德镇瓷器历史、陶瓷艺术、传统窑火、工匠技艺与城市文化的作品。",
+    descriptionEn: "An exploration of Jingdezhen's porcelain history, ceramic art, traditional kilns, craftsmanship, and the culture of China's renowned porcelain capital.",
+
+    formats: ["paperback"],
+    formatZh: "纸书",
+    formatEn: "Print",
+
+    publishDate: "",
+    featured: true,
+    comingSoon: false,
+
+    coverImage: "data/images/books/porcelain-capital-jingdezhen.jpg",
+
+    isbnPaperback: "",
+    isbnHardcover: "",
+    isbnEbook: "",
+    amazonUrl: ""
+  }
 ];
