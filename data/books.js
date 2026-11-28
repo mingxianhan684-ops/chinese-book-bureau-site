@@ -892,4 +892,48 @@ coverImages: [
     isbnEbook: "",
     amazonUrl: ""
   }
+,
+  {
+    id: "heart-claimed-by-revolution",
+
+    titleZh: "被革命占有的心",
+    titleEn: "The Heart Claimed by Revolution",
+
+    authorZh: "",
+    authorEn: "",
+
+    category: "historical-fiction",
+    categoryZh: "历史与文学",
+    categoryEn: "History & Literature",
+
+    tags: [
+      "革命",
+      "历史",
+      "女性",
+      "时代命运",
+      "历史小说",
+      "revolution",
+      "history",
+      "women",
+      "historical fiction"
+    ],
+
+    descriptionZh: "一部以革命年代为背景的历史文学作品，讲述个人情感、信念与时代洪流之间的冲突和选择。",
+    descriptionEn: "A historical literary work set during a revolutionary era, exploring the conflict between personal emotion, political conviction, and the forces of history.",
+
+    formats: ["paperback"],
+    formatZh: "纸书",
+    formatEn: "Print",
+
+    publishDate: "",
+    featured: false,
+    comingSoon: false,
+
+    coverImage: "data/images/books/heart-claimed-by-revolution.jpg",
+
+    isbnPaperback: "",
+    isbnHardcover: "",
+    isbnEbook: "",
+    amazonUrl: ""
+  }
 ];
