@@ -1540,4 +1540,49 @@ coverImages: [
     isbnEbook: "",
     amazonUrl: ""
   }
+,
+  {
+    id: "year-i-started-overthinking",
+
+    titleZh: "那一年，我开始胡思乱想",
+    titleEn: "The Year I Started Overthinking",
+
+    authorZh: "乔里斯·范·李乌韦",
+    authorEn: "Joris van Leeuwe",
+
+    category: "young-adult-fiction",
+    categoryZh: "青春与校园小说",
+    categoryEn: "Young Adult & Campus Fiction",
+
+    tags: [
+      "青春",
+      "校园",
+      "成长",
+      "青少年",
+      "心理",
+      "友情",
+      "young adult",
+      "campus",
+      "coming of age",
+      "overthinking"
+    ],
+
+    descriptionZh: "一部关于青春期、校园生活、自我怀疑与成长的小说，讲述一个少年在胡思乱想中逐渐认识自己和周围的世界。",
+    descriptionEn: "A coming-of-age novel about school life, self-doubt, friendship, and a teenager learning to understand himself and the world around him.",
+
+    formats: ["paperback", "ebook"],
+    formatZh: "纸书、电子书",
+    formatEn: "Print & Ebook",
+
+    publishDate: "",
+    featured: true,
+    comingSoon: false,
+
+    coverImage: "data/images/books/year-i-started-overthinking.jpg",
+
+    isbnPaperback: "",
+    isbnHardcover: "",
+    isbnEbook: "",
+    amazonUrl: ""
+  }
 ];
