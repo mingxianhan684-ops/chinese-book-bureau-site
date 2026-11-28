@@ -560,4 +560,54 @@ window.BOOKS = [
     isbnEbook: "",
     amazonUrl: ""
   }
+,
+  {
+    id: "unmasking-musk",
+
+    titleZh: "揭开马斯克的面具",
+    titleEn: "Unmasking Musk",
+
+    authorZh: "海宁",
+    authorEn: "Haining",
+
+    category: "technology",
+    categoryZh: "科技、商业与未来",
+    categoryEn: "Technology, Business & Future",
+
+    tags: [
+      "马斯克",
+      "科技",
+      "商业",
+      "财富",
+      "人工智能",
+      "Elon Musk",
+      "technology",
+      "business",
+      "wealth",
+      "artificial intelligence"
+    ],
+
+    descriptionZh: "一部从科技、商业、财富与未来社会角度观察马斯克及其商业帝国的作品，探讨创新愿景背后的现实与争议。",
+    descriptionEn: "A critical examination of Musk and his business empire through technology, wealth, innovation, and the future, exploring the realities and controversies behind the vision.",
+
+    formats: ["paperback"],
+    formatZh: "纸书",
+    formatEn: "Print",
+
+    publishDate: "",
+    featured: true,
+    comingSoon: false,
+
+    coverImage: "data/images/books/unmasking-musk.jpg",
+
+    coverImages: [
+      "data/images/books/unmasking-musk.jpg",
+      "data/images/books/unmasking-musk-2.jpg"
+    ],
+
+    isbnPaperback: "",
+    isbnHardcover: "",
+    isbnEbook: "",
+    amazonUrl: ""
+  }
 ];
