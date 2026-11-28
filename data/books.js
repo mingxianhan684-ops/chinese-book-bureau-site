@@ -746,4 +746,53 @@ window.BOOKS = [
     isbnEbook: "",
     amazonUrl: ""
   }
+,
+  {
+    id: "cat-conspiracy-theory",
+
+    titleZh: "猫咪阴谋论：它们为什么毛茸茸？",
+    titleEn: "The Cat Conspiracy: Why Are They So Fluffy?",
+
+    authorZh: "",
+    authorEn: "",
+
+    category: "children-popular-science",
+    categoryZh: "儿童与趣味科普",
+    categoryEn: "Children & Popular Science",
+
+    tags: [
+      "猫咪",
+      "动物",
+      "幽默",
+      "趣味科普",
+      "儿童读物",
+      "cats",
+      "animals",
+      "humor",
+      "popular science"
+    ],
+
+    descriptionZh: "一本以幽默和想象力探索猫咪行为、家庭统治计划与神秘猫咪帝国的趣味作品。",
+    descriptionEn: "A humorous and imaginative exploration of cat behavior, household domination, and the mysterious expansion of the feline empire.",
+
+    formats: ["paperback"],
+    formatZh: "纸书",
+    formatEn: "Print",
+
+    publishDate: "",
+    featured: false,
+    comingSoon: false,
+
+    coverImage: "data/images/books/cat-conspiracy-theory.jpg",
+
+    coverImages: [
+      "data/images/books/cat-conspiracy-theory.jpg",
+      "data/images/books/cat-conspiracy-theory-2.jpg"
+    ],
+
+    isbnPaperback: "",
+    isbnHardcover: "",
+    isbnEbook: "",
+    amazonUrl: ""
+  }
 ];
