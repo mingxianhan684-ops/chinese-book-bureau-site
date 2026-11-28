@@ -1164,4 +1164,51 @@ coverImages: [
     isbnEbook: "",
     amazonUrl: ""
   }
+,
+  {
+    id: "behavioral-economics",
+
+    titleZh: "行为经济学",
+    titleEn: "Behavioral Economics",
+
+    subtitleZh: "揭示决策心理学与非理性行为",
+    subtitleEn: "Unlocking the Psychology of Decision Making and Irrational Behavior",
+
+    authorZh: "韩京",
+    authorEn: "Han Jing",
+
+    category: "economics-business",
+    categoryZh: "经济与商业",
+    categoryEn: "Economics & Business",
+
+    tags: [
+      "行为经济学",
+      "决策心理学",
+      "非理性行为",
+      "经济决策",
+      "心理学",
+      "behavioral economics",
+      "decision making",
+      "irrational behavior",
+      "psychology"
+    ],
+
+    descriptionZh: "一本系统介绍行为经济学、决策心理和非理性行为的作品，分析人们在消费、投资和日常选择中如何受到心理因素影响。",
+    descriptionEn: "A systematic introduction to behavioral economics, decision psychology, and irrational behavior in consumption, investment, and everyday choices.",
+
+    formats: ["paperback"],
+    formatZh: "纸书",
+    formatEn: "Print",
+
+    publishDate: "",
+    featured: true,
+    comingSoon: false,
+
+    coverImage: "data/images/books/behavioral-economics.jpg",
+
+    isbnPaperback: "",
+    isbnHardcover: "",
+    isbnEbook: "",
+    amazonUrl: ""
+  }
 ];
