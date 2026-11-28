@@ -122,4 +122,48 @@ window.BOOKS = [
     isbnEbook: "",
     amazonUrl: ""
   }
+,
+  {
+    id: "the-world-of-one",
+
+    titleZh: "一个人的世界",
+    titleEn: "The World of One",
+
+    authorZh: "张春宏",
+    authorEn: "Zhang Chunhong",
+
+    category: "life-growth",
+    categoryZh: "人生与成长",
+    categoryEn: "Life & Personal Growth",
+
+    tags: [
+      "人生",
+      "成长",
+      "独处",
+      "幸福",
+      "心灵",
+      "人际关系",
+      "personal growth",
+      "solitude",
+      "happiness"
+    ],
+
+    descriptionZh: "一部关于独处、人生选择与内心成长的作品，引导读者穿过自己的思想，寻找属于自己的幸福旅程。",
+    descriptionEn: "A reflective work about solitude, life choices, and inner growth, guiding readers through their own thoughts toward a personal journey of happiness.",
+
+    formats: ["paperback"],
+    formatZh: "纸书",
+    formatEn: "Print",
+
+    publishDate: "",
+    featured: false,
+    comingSoon: false,
+
+    coverImage: "data/images/books/the-world-of-one.jpg",
+
+    isbnPaperback: "",
+    isbnHardcover: "",
+    isbnEbook: "",
+    amazonUrl: ""
+  }
 ];
