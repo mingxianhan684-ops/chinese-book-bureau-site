@@ -1030,4 +1030,48 @@ coverImages: [
     isbnEbook: "",
     amazonUrl: ""
   }
+,
+  {
+    id: "defiant-incest",
+
+    titleZh: "理直气壮的乱伦",
+    titleEn: "Defiant Incest",
+
+    authorZh: "万里浪",
+    authorEn: "Wan Lilang",
+
+    category: "fiction",
+    categoryZh: "社会与伦理小说",
+    categoryEn: "Social & Ethical Fiction",
+
+    tags: [
+      "家庭",
+      "伦理",
+      "禁忌",
+      "社会问题",
+      "人性",
+      "family",
+      "ethics",
+      "taboo",
+      "social issues"
+    ],
+
+    descriptionZh: "一部探讨家庭关系、社会禁忌、道德边界与人性冲突的社会伦理小说。",
+    descriptionEn: "A social and ethical novel examining family relationships, social taboos, moral boundaries, and conflicts within human nature.",
+
+    formats: ["paperback"],
+    formatZh: "纸书",
+    formatEn: "Print",
+
+    publishDate: "",
+    featured: false,
+    comingSoon: false,
+
+    coverImage: "data/images/books/defiant-incest.jpg",
+
+    isbnPaperback: "",
+    isbnHardcover: "",
+    isbnEbook: "",
+    amazonUrl: ""
+  }
 ];
