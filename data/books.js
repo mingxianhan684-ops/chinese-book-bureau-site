@@ -839,6 +839,12 @@ coverImages: [
 
     coverImage: "data/images/books/last-normal-person-in-this-building.jpg",
 
+coverImages: [
+  "data/images/books/last-normal-person-in-this-building.jpg",
+  "data/images/books/last-normal-person-in-this-building-2.jpg"
+],
+    
+
     isbnPaperback: "",
     isbnHardcover: "",
     isbnEbook: "",
