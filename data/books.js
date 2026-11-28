@@ -252,4 +252,48 @@ window.BOOKS = [
     isbnEbook: "",
     amazonUrl: ""
   }
+,
+  {
+    id: "change-of-heart",
+
+    titleZh: "移情别恋",
+    titleEn: "A Change of Heart",
+
+    authorZh: "梦飞",
+    authorEn: "Meng Fei",
+
+    category: "relationships",
+    categoryZh: "情感与关系",
+    categoryEn: "Relationships & Emotions",
+
+    tags: [
+      "爱情",
+      "婚姻",
+      "家庭",
+      "背叛",
+      "情感纠葛",
+      "love",
+      "marriage",
+      "family",
+      "betrayal"
+    ],
+
+    descriptionZh: "一部围绕爱情变化、婚姻危机、家庭关系与情感选择展开的都市情感作品。",
+    descriptionEn: "An urban emotional drama about changing love, marital crisis, family relationships, and difficult personal choices.",
+
+    formats: ["paperback"],
+    formatZh: "纸书",
+    formatEn: "Print",
+
+    publishDate: "",
+    featured: false,
+    comingSoon: false,
+
+    coverImage: "data/images/books/change-of-heart.jpg",
+
+    isbnPaperback: "",
+    isbnHardcover: "",
+    isbnEbook: "",
+    amazonUrl: ""
+  }
 ];
