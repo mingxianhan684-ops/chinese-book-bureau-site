@@ -166,4 +166,47 @@ window.BOOKS = [
     isbnEbook: "",
     amazonUrl: ""
   }
+,
+  {
+    id: "meaningless-life-in-the-lying-flat-era",
+
+    titleZh: "无意义的人生，躺平的时代！",
+    titleEn: "A Meaningless Life in the Lying Flat Era",
+
+    authorZh: "韩洋",
+    authorEn: "Han Yang",
+
+    category: "life-growth",
+    categoryZh: "人生与成长",
+    categoryEn: "Life & Personal Growth",
+
+    tags: [
+      "躺平",
+      "人生",
+      "社会现实",
+      "青年",
+      "时代记录",
+      "lying flat",
+      "young generation",
+      "social issues"
+    ],
+
+    descriptionZh: "一部记录当代青年生活状态、社会压力与“躺平”现象的现实作品，探讨个人选择与时代环境之间的关系。",
+    descriptionEn: "A contemporary work examining young people, social pressure, and the lying-flat phenomenon, exploring the relationship between personal choices and the times.",
+
+    formats: ["paperback"],
+    formatZh: "纸书",
+    formatEn: "Print",
+
+    publishDate: "",
+    featured: false,
+    comingSoon: false,
+
+    coverImage: "data/images/books/meaningless-life-in-the-lying-flat-era.jpg",
+
+    isbnPaperback: "",
+    isbnHardcover: "",
+    isbnEbook: "",
+    amazonUrl: ""
+  }
 ];
