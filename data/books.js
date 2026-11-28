@@ -516,4 +516,48 @@ window.BOOKS = [
     isbnEbook: "",
     amazonUrl: ""
   }
+,
+  {
+    id: "beginners-guide-to-love",
+
+    titleZh: "爱情入门指南",
+    titleEn: "A Beginner's Guide to Love",
+
+    authorZh: "路易斯",
+    authorEn: "Louis",
+
+    category: "relationships",
+    categoryZh: "情感与关系",
+    categoryEn: "Relationships & Emotions",
+
+    tags: [
+      "爱情",
+      "恋爱",
+      "情感",
+      "两性关系",
+      "爱情指南",
+      "love",
+      "romance",
+      "dating",
+      "relationships"
+    ],
+
+    descriptionZh: "一本面向爱情初学者的情感指南，探讨如何认识爱情、建立关系、理解彼此并面对感情中的成长与选择。",
+    descriptionEn: "A practical introduction to love and relationships, exploring connection, understanding, emotional growth, and the choices people face in romance.",
+
+    formats: ["paperback"],
+    formatZh: "纸书",
+    formatEn: "Print",
+
+    publishDate: "",
+    featured: false,
+    comingSoon: false,
+
+    coverImage: "data/images/books/beginners-guide-to-love.jpg",
+
+    isbnPaperback: "",
+    isbnHardcover: "",
+    isbnEbook: "",
+    amazonUrl: ""
+  }
 ];
