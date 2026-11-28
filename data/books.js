@@ -936,4 +936,51 @@ coverImages: [
     isbnEbook: "",
     amazonUrl: ""
   }
+,
+  {
+    id: "lisa-where-are-you",
+
+    titleZh: "丽莎！你在哪里？",
+    titleEn: "Lisa! Where Are You?",
+
+    subtitleZh: "跟我快乐生活三年的小斗牛",
+    subtitleEn: "The Little French Bulldog Who Shared Three Years of Joy with Us",
+
+    authorZh: "汉斯",
+    authorEn: "Hans",
+
+    category: "pets-family",
+    categoryZh: "宠物与家庭",
+    categoryEn: "Pets & Family",
+
+    tags: [
+      "宠物",
+      "法国斗牛犬",
+      "家庭",
+      "陪伴",
+      "回忆",
+      "pets",
+      "French bulldog",
+      "family",
+      "companionship"
+    ],
+
+    descriptionZh: "一部记录法国斗牛犬丽莎与家人共同生活三年时光的温情作品，讲述宠物带来的陪伴、快乐与珍贵回忆。",
+    descriptionEn: "A heartfelt account of three joyful years shared with Lisa, a beloved French bulldog, celebrating companionship, family, and lasting memories.",
+
+    formats: ["paperback"],
+    formatZh: "纸书",
+    formatEn: "Print",
+
+    publishDate: "",
+    featured: false,
+    comingSoon: false,
+
+    coverImage: "data/images/books/lisa-where-are-you.jpg",
+
+    isbnPaperback: "",
+    isbnHardcover: "",
+    isbnEbook: "",
+    amazonUrl: ""
+  }
 ];
