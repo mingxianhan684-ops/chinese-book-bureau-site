@@ -1119,4 +1119,49 @@ coverImages: [
     isbnEbook: "",
     amazonUrl: ""
   }
+,
+  {
+    id: "billing-day-americas-real-holiday",
+
+    titleZh: "账单日：美国真正的节日",
+    titleEn: "Billing Day: America's Real Holiday",
+
+    authorZh: "丽莎",
+    authorEn: "Lisa",
+
+    category: "society-culture",
+    categoryZh: "社会与文化",
+    categoryEn: "Society & Culture",
+
+    tags: [
+      "美国生活",
+      "账单",
+      "生活压力",
+      "社会观察",
+      "幽默",
+      "American life",
+      "bills",
+      "daily life",
+      "social commentary",
+      "humor"
+    ],
+
+    descriptionZh: "一部以幽默和荒诞方式观察美国日常生活的作品，描写工作、信用、消费与不断到来的账单。",
+    descriptionEn: "A quietly absurd comedy about everyday American life, exploring work, credit, consumption, and the bills that never stop arriving.",
+
+    formats: ["paperback"],
+    formatZh: "纸书",
+    formatEn: "Print",
+
+    publishDate: "",
+    featured: false,
+    comingSoon: false,
+
+    coverImage: "data/images/books/billing-day-americas-real-holiday.jpg",
+
+    isbnPaperback: "",
+    isbnHardcover: "",
+    isbnEbook: "",
+    amazonUrl: ""
+  }
 ];
