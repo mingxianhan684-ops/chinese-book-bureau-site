@@ -844,4 +844,52 @@ coverImages: [
     isbnEbook: "",
     amazonUrl: ""
   }
+,
+  {
+    id: "while-on-earth",
+
+    titleZh: "活在人间",
+    titleEn: "While on Earth!",
+
+    subtitleZh: "活着，是对爱永恒的承诺",
+    subtitleEn: "Living Is an Eternal Commitment to Love",
+
+    authorZh: "海静",
+    authorEn: "Hai Jing",
+
+    category: "life-growth",
+    categoryZh: "人生与成长",
+    categoryEn: "Life & Personal Growth",
+
+    tags: [
+      "生命",
+      "爱情",
+      "陪伴",
+      "关怀",
+      "人生感悟",
+      "life",
+      "love",
+      "care",
+      "companionship",
+      "inspiration"
+    ],
+
+    descriptionZh: "一部关于生命、爱、陪伴与责任的温暖作品，讲述在人生旅途中彼此照顾和坚守承诺的意义。",
+    descriptionEn: "A heartfelt work about life, love, care, and responsibility, exploring the meaning of companionship and lasting commitment during our time on Earth.",
+
+    formats: ["paperback"],
+    formatZh: "纸书",
+    formatEn: "Print",
+
+    publishDate: "",
+    featured: false,
+    comingSoon: false,
+
+    coverImage: "data/images/books/while-on-earth.jpg",
+
+    isbnPaperback: "",
+    isbnHardcover: "",
+    isbnEbook: "",
+    amazonUrl: ""
+  }
 ];
