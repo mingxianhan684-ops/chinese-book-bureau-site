@@ -1074,4 +1074,49 @@ coverImages: [
     isbnEbook: "",
     amazonUrl: ""
   }
+,
+  {
+    id: "who-am-i-where-am-i-going",
+
+    titleZh: "我是谁？到哪里去？",
+    titleEn: "Who Am I? Where Am I Going?",
+
+    authorZh: "重庆老刘",
+    authorEn: "Old Liu from Chongqing",
+
+    category: "life-growth",
+    categoryZh: "人生与思想",
+    categoryEn: "Life & Reflection",
+
+    tags: [
+      "人生",
+      "自我认识",
+      "重庆",
+      "回忆",
+      "思想",
+      "life",
+      "identity",
+      "reflection",
+      "memoir",
+      "Chongqing"
+    ],
+
+    descriptionZh: "一部关于身份、人生经历与生命方向的思考之作，通过个人记忆探寻“我是谁”和“将走向哪里”。",
+    descriptionEn: "A reflective work on identity, personal experience, and life's direction, exploring the questions of who we are and where we are going.",
+
+    formats: ["paperback"],
+    formatZh: "纸书",
+    formatEn: "Print",
+
+    publishDate: "",
+    featured: false,
+    comingSoon: false,
+
+    coverImage: "data/images/books/who-am-i-where-am-i-going.jpg",
+
+    isbnPaperback: "",
+    isbnHardcover: "",
+    isbnEbook: "",
+    amazonUrl: ""
+  }
 ];
