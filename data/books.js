@@ -1352,4 +1352,48 @@ coverImages: [
     isbnEbook: "",
     amazonUrl: ""
   }
+,
+  {
+    id: "sisterhood-of-classmates",
+
+    titleZh: "同窗闺蜜",
+    titleEn: "Sisterhood of Classmates",
+
+    authorZh: "湘霞",
+    authorEn: "Xiang Xia",
+
+    category: "fiction",
+    categoryZh: "女性与情感小说",
+    categoryEn: "Women & Relationship Fiction",
+
+    tags: [
+      "闺蜜",
+      "同学",
+      "女性友谊",
+      "成长",
+      "都市生活",
+      "friendship",
+      "classmates",
+      "women",
+      "personal growth"
+    ],
+
+    descriptionZh: "一部讲述两位女性从同窗到闺蜜的人生故事，描写她们在友情、爱情、成长与都市生活中的相互陪伴。",
+    descriptionEn: "A story of two women whose bond grows from classmates to lifelong friends as they navigate friendship, love, personal growth, and city life.",
+
+    formats: ["paperback"],
+    formatZh: "纸书",
+    formatEn: "Print",
+
+    publishDate: "",
+    featured: false,
+    comingSoon: false,
+
+    coverImage: "data/images/books/sisterhood-of-classmates.jpg",
+
+    isbnPaperback: "",
+    isbnHardcover: "",
+    isbnEbook: "",
+    amazonUrl: ""
+  }
 ];
