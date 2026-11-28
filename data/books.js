@@ -384,4 +384,48 @@ window.BOOKS = [
     isbnEbook: "",
     amazonUrl: ""
   }
+,
+  {
+    id: "unwanted-love-triangle",
+
+    titleZh: "谁都不想要的三角恋",
+    titleEn: "The Love Triangle Nobody Wanted",
+
+    authorZh: "高飞",
+    authorEn: "Gao Fei",
+
+    category: "relationships",
+    categoryZh: "情感与关系",
+    categoryEn: "Relationships & Emotions",
+
+    tags: [
+      "三角恋",
+      "爱情",
+      "婚姻",
+      "家庭",
+      "情感纠葛",
+      "love triangle",
+      "romance",
+      "marriage",
+      "family"
+    ],
+
+    descriptionZh: "一部围绕三个人之间复杂感情、婚姻困境与家庭矛盾展开的都市情感小说。",
+    descriptionEn: "An urban relationship novel about three people caught in a complicated love triangle, marital conflict, and family tensions.",
+
+    formats: ["paperback"],
+    formatZh: "纸书",
+    formatEn: "Print",
+
+    publishDate: "",
+    featured: false,
+    comingSoon: false,
+
+    coverImage: "data/images/books/unwanted-love-triangle.jpg",
+
+    isbnPaperback: "",
+    isbnHardcover: "",
+    isbnEbook: "",
+    amazonUrl: ""
+  }
 ];
