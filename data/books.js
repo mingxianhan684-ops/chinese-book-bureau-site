@@ -296,4 +296,48 @@ window.BOOKS = [
     isbnEbook: "",
     amazonUrl: ""
   }
+,
+  {
+    id: "never-ending-monday",
+
+    titleZh: "永远结束不了的星期一",
+    titleEn: "Never-Ending Monday",
+
+    authorZh: "韩京",
+    authorEn: "Han Jing",
+
+    category: "fiction",
+    categoryZh: "小说",
+    categoryEn: "Fiction",
+
+    tags: [
+      "职场",
+      "星期一",
+      "工作压力",
+      "都市生活",
+      "幽默小说",
+      "workplace",
+      "Monday",
+      "office life",
+      "humor"
+    ],
+
+    descriptionZh: "一部描写现代职场生活、工作压力与重复日常的幽默小说，讲述一个仿佛永远无法结束的星期一。",
+    descriptionEn: "A humorous novel about modern office life, workplace pressure, and repetitive routines centered on a Monday that seems never to end.",
+
+    formats: ["paperback"],
+    formatZh: "纸书",
+    formatEn: "Print",
+
+    publishDate: "",
+    featured: false,
+    comingSoon: false,
+
+    coverImage: "data/images/books/never-ending-monday.jpg",
+
+    isbnPaperback: "",
+    isbnHardcover: "",
+    isbnEbook: "",
+    amazonUrl: ""
+  }
 ];
