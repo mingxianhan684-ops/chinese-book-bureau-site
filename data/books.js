@@ -86,8 +86,8 @@ window.BOOKS = [
     titleZh: "令人发疯的约会",
     titleEn: "The Date from Hell",
 
-    authorZh: "",
-    authorEn: "",
+    authorZh: "李陈",
+    authorEn: "Li Chen",
 
     category: "relationships",
     categoryZh: "情感与关系",
@@ -117,6 +117,11 @@ window.BOOKS = [
 
     coverImage: "data/images/books/the-date-from-hell.jpg",
 
+coverImages: [
+  "data/images/books/the-date-from-hell.jpg",
+  "data/images/books/the-date-from-hell-2.jpg"
+],
+    
     isbnPaperback: "",
     isbnHardcover: "",
     isbnEbook: "",
