@@ -1,1 +1,1 @@
-
+Book cover images
