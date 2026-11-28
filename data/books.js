@@ -1304,4 +1304,52 @@ coverImages: [
     isbnEbook: "",
     amazonUrl: ""
   }
+,
+  {
+    id: "wisdom-of-a-happy-family-volume-2",
+
+    titleZh: "幸福家庭的智慧（第二册）",
+    titleEn: "The Wisdom of a Happy Family — Volume II",
+
+    subtitleZh: "婚姻与家庭教育实用指南",
+    subtitleEn: "A Practical Guide to Marriage and Family Education",
+
+    authorZh: "",
+    authorEn: "",
+
+    category: "family-parenting",
+    categoryZh: "家庭与教育",
+    categoryEn: "Family & Parenting",
+
+    tags: [
+      "家庭",
+      "婚姻",
+      "育儿",
+      "家庭教育",
+      "亲子关系",
+      "family",
+      "marriage",
+      "parenting",
+      "family education"
+    ],
+
+    descriptionZh: "一本关于婚姻、育儿、家庭生活与家庭价值观的实用指南，帮助家庭改善沟通、增进理解并建立更牢固的关系。",
+    descriptionEn: "A practical guide to marriage, parenting, family life, and shared values, helping families improve communication, deepen understanding, and build stronger relationships.",
+
+    formats: ["paperback"],
+    formatZh: "纸书",
+    formatEn: "Print",
+
+    volume: 2,
+    publishDate: "",
+    featured: false,
+    comingSoon: false,
+
+    coverImage: "data/images/books/wisdom-of-a-happy-family-volume-2.jpg",
+
+    isbnPaperback: "",
+    isbnHardcover: "",
+    isbnEbook: "",
+    amazonUrl: ""
+  }
 ];
