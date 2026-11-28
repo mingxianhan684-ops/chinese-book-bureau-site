@@ -1259,4 +1259,49 @@ coverImages: [
     isbnEbook: "",
     amazonUrl: ""
   }
+,
+  {
+    id: "allure-of-mature-women",
+
+    titleZh: "老女人的魅力",
+    titleEn: "The Allure of Mature Women",
+
+    authorZh: "薄萍",
+    authorEn: "Bo Ping",
+
+    category: "life-growth",
+    categoryZh: "女性与人生",
+    categoryEn: "Women & Life",
+
+    tags: [
+      "女性",
+      "成熟女性",
+      "年龄",
+      "自信",
+      "人生智慧",
+      "women",
+      "mature women",
+      "confidence",
+      "aging",
+      "life wisdom"
+    ],
+
+    descriptionZh: "一部探讨成熟女性的人生阅历、独立、自信与内在魅力的作品，展现年龄沉淀出的智慧和从容。",
+    descriptionEn: "A thoughtful exploration of the experience, independence, confidence, and inner beauty of mature women, celebrating the wisdom and grace that come with age.",
+
+    formats: ["paperback"],
+    formatZh: "纸书",
+    formatEn: "Print",
+
+    publishDate: "",
+    featured: false,
+    comingSoon: false,
+
+    coverImage: "data/images/books/allure-of-mature-women.jpg",
+
+    isbnPaperback: "",
+    isbnHardcover: "",
+    isbnEbook: "",
+    amazonUrl: ""
+  }
 ];
