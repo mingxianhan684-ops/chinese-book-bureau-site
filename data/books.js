@@ -209,4 +209,47 @@ window.BOOKS = [
     isbnEbook: "",
     amazonUrl: ""
   }
+,
+  {
+    id: "our-leader-trump-jianguo",
+
+    titleZh: "咱们的领袖川建国！",
+    titleEn: "Our Leader Trump Jianguo!",
+
+    authorZh: "",
+    authorEn: "",
+
+    category: "politics-society",
+    categoryZh: "政治与社会",
+    categoryEn: "Politics & Society",
+
+    tags: [
+      "川普",
+      "特朗普",
+      "美国政治",
+      "社会讽刺",
+      "政治幽默",
+      "Donald Trump",
+      "American politics",
+      "political satire"
+    ],
+
+    descriptionZh: "一部以幽默和讽刺视角观察特朗普、美国政治及当代社会现象的作品。",
+    descriptionEn: "A humorous and satirical look at Donald Trump, American politics, and contemporary social issues.",
+
+    formats: ["paperback"],
+    formatZh: "纸书",
+    formatEn: "Print",
+
+    publishDate: "",
+    featured: false,
+    comingSoon: false,
+
+    coverImage: "data/images/books/our-leader-trump-jianguo.jpg",
+
+    isbnPaperback: "",
+    isbnHardcover: "",
+    isbnEbook: "",
+    amazonUrl: ""
+  }
 ];
