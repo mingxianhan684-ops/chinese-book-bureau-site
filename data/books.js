@@ -472,4 +472,48 @@ window.BOOKS = [
     isbnEbook: "",
     amazonUrl: ""
   }
+,
+  {
+    id: "an-affair-beyond-the-wall",
+
+    titleZh: "红杏出墙",
+    titleEn: "An Affair Beyond the Wall",
+
+    authorZh: "湘霞",
+    authorEn: "Xiang Xia",
+
+    category: "relationships",
+    categoryZh: "情感与关系",
+    categoryEn: "Relationships & Emotions",
+
+    tags: [
+      "婚姻",
+      "爱情",
+      "婚外情",
+      "女性",
+      "都市情感",
+      "marriage",
+      "romance",
+      "affair",
+      "women"
+    ],
+
+    descriptionZh: "一部围绕女性、爱情、婚姻与情感选择展开的都市情感小说，呈现复杂关系中的欲望、挣扎与人生抉择。",
+    descriptionEn: "An urban relationship novel about women, love, marriage, and emotional choices, exploring desire, struggle, and difficult decisions.",
+
+    formats: ["paperback"],
+    formatZh: "纸书",
+    formatEn: "Print",
+
+    publishDate: "",
+    featured: false,
+    comingSoon: false,
+
+    coverImage: "data/images/books/an-affair-beyond-the-wall.jpg",
+
+    isbnPaperback: "",
+    isbnHardcover: "",
+    isbnEbook: "",
+    amazonUrl: ""
+  }
 ];
