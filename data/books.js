@@ -340,4 +340,48 @@ window.BOOKS = [
     isbnEbook: "",
     amazonUrl: ""
   }
+,
+  {
+    id: "development-history-of-peking-opera",
+
+    titleZh: "中国京剧发展史",
+    titleEn: "The Development History of Peking Opera",
+
+    authorZh: "韩京、刘占清",
+    authorEn: "Han Jing & Liu Zhanqing",
+
+    category: "art-history",
+    categoryZh: "艺术与历史",
+    categoryEn: "Art & History",
+
+    tags: [
+      "京剧",
+      "中国戏曲",
+      "传统文化",
+      "艺术史",
+      "中国历史",
+      "Peking Opera",
+      "Chinese opera",
+      "traditional culture",
+      "art history"
+    ],
+
+    descriptionZh: "一部系统梳理中国京剧形成、发展、流派、表演艺术与文化传承的历史著作。",
+    descriptionEn: "A historical study tracing the origins, development, schools, performance traditions, and cultural heritage of Peking Opera.",
+
+    formats: ["paperback"],
+    formatZh: "纸书",
+    formatEn: "Print",
+
+    publishDate: "",
+    featured: true,
+    comingSoon: false,
+
+    coverImage: "data/images/books/development-history-of-peking-opera.jpg",
+
+    isbnPaperback: "",
+    isbnHardcover: "",
+    isbnEbook: "",
+    amazonUrl: ""
+  }
 ];
