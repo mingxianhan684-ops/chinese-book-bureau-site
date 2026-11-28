@@ -1211,4 +1211,52 @@ coverImages: [
     isbnEbook: "",
     amazonUrl: ""
   }
+,
+  {
+    id: "old-maids-of-sanhe-county-volume-2",
+
+    titleZh: "三河县的老妈子（下册）",
+    titleEn: "The Old Maids of Sanhe County — Volume Two",
+
+    subtitleZh: "从三河到北京四合院：三位老妈子的命运与时代记忆",
+    subtitleEn: "From Sanhe to Beijing Courtyard Homes: The Lives and Memories of Three Women",
+
+    authorZh: "韩京",
+    authorEn: "Han Jing",
+
+    category: "history-literature",
+    categoryZh: "历史与文学",
+    categoryEn: "History & Literature",
+
+    tags: [
+      "三河县",
+      "北京四合院",
+      "女性命运",
+      "时代记忆",
+      "社会历史",
+      "Sanhe County",
+      "Beijing courtyard",
+      "women",
+      "social history"
+    ],
+
+    descriptionZh: "通过三位普通女性从三河走进北京四合院的人生经历，记录她们的命运、家庭生活与时代记忆。",
+    descriptionEn: "Through the lives of three women who traveled from Sanhe to Beijing courtyard homes, this volume records their personal destinies, family experiences, and memories of a changing era.",
+
+    formats: ["paperback"],
+    formatZh: "纸书",
+    formatEn: "Print",
+
+    volume: 2,
+    publishDate: "",
+    featured: true,
+    comingSoon: false,
+
+    coverImage: "data/images/books/old-maids-of-sanhe-county-volume-2.jpg",
+
+    isbnPaperback: "",
+    isbnHardcover: "",
+    isbnEbook: "",
+    amazonUrl: ""
+  }
 ];
