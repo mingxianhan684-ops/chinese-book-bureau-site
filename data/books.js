@@ -1402,4 +1402,53 @@ coverImages: [
     isbnEbook: "",
     amazonUrl: ""
   }
+,
+  {
+    id: "china-travel-monthly-chengdu",
+
+    titleZh: "中国旅游月刊：成都",
+    titleEn: "China Travel Monthly: Chengdu",
+
+    subtitleZh: "中国最令人流连忘返的城市",
+    subtitleEn: "The Most Addictive City in China",
+
+    authorZh: "",
+    authorEn: "",
+
+    category: "culture-travel",
+    categoryZh: "文化与旅游",
+    categoryEn: "Culture & Travel",
+
+    tags: [
+      "成都",
+      "中国旅游",
+      "四川",
+      "熊猫",
+      "火锅",
+      "城市文化",
+      "Chengdu",
+      "China travel",
+      "Sichuan",
+      "panda",
+      "hot pot"
+    ],
+
+    descriptionZh: "一本介绍成都城市风貌、历史文化、美食、熊猫与旅游景点的文化旅行读物。",
+    descriptionEn: "A cultural travel guide to Chengdu featuring its city life, history, cuisine, giant pandas, landmarks, and distinctive Sichuan character.",
+
+    formats: ["paperback"],
+    formatZh: "纸书",
+    formatEn: "Print",
+
+    publishDate: "",
+    featured: true,
+    comingSoon: false,
+
+    coverImage: "data/images/books/china-travel-monthly-chengdu.jpg",
+
+    isbnPaperback: "",
+    isbnHardcover: "",
+    isbnEbook: "",
+    amazonUrl: ""
+  }
 ];
