@@ -1451,4 +1451,49 @@ coverImages: [
     isbnEbook: "",
     amazonUrl: ""
   }
+,
+  {
+    id: "no-future-for-hong-kong",
+
+    titleZh: "没有未来的香港",
+    titleEn: "No Future for Hong Kong",
+
+    authorZh: "沈思明",
+    authorEn: "Shen Siming",
+
+    category: "politics-society",
+    categoryZh: "政治与社会",
+    categoryEn: "Politics & Society",
+
+    tags: [
+      "香港",
+      "政治",
+      "社会",
+      "经济",
+      "城市发展",
+      "Hong Kong",
+      "politics",
+      "society",
+      "economy",
+      "urban development"
+    ],
+
+    descriptionZh: "一部围绕香港政治、社会、经济与城市未来展开的评论作品，分析香港面临的现实问题与发展挑战。",
+    descriptionEn: "A work of political and social commentary examining Hong Kong's economy, society, governance, and the challenges shaping the city's future.",
+
+    formats: ["paperback"],
+    formatZh: "纸书",
+    formatEn: "Print",
+
+    publishDate: "",
+    featured: false,
+    comingSoon: false,
+
+    coverImage: "data/images/books/no-future-for-hong-kong.jpg",
+
+    isbnPaperback: "",
+    isbnHardcover: "",
+    isbnEbook: "",
+    amazonUrl: ""
+  }
 ];
