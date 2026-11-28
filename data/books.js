@@ -79,4 +79,47 @@ window.BOOKS = [
     isbnEbook: "",
     amazonUrl: ""
   }
+,
+  {
+    id: "the-date-from-hell",
+
+    titleZh: "令人发疯的约会",
+    titleEn: "The Date from Hell",
+
+    authorZh: "",
+    authorEn: "",
+
+    category: "relationships",
+    categoryZh: "情感与关系",
+    categoryEn: "Relationships & Emotions",
+
+    tags: [
+      "约会",
+      "爱情",
+      "婚恋",
+      "情感",
+      "人际关系",
+      "dating",
+      "relationships",
+      "romance"
+    ],
+
+    descriptionZh: "一本围绕约会、爱情与两性关系展开的轻松作品，讲述约会中令人尴尬、意外又发疯的经历。",
+    descriptionEn: "A lighthearted book about dating, romance, and relationships, filled with awkward, unexpected, and maddening encounters.",
+
+    formats: ["paperback"],
+    formatZh: "纸书",
+    formatEn: "Print",
+
+    publishDate: "",
+    featured: false,
+    comingSoon: false,
+
+    coverImage: "data/images/books/the-date-from-hell.jpg",
+
+    isbnPaperback: "",
+    isbnHardcover: "",
+    isbnEbook: "",
+    amazonUrl: ""
+  }
 ];
