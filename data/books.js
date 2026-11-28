@@ -983,4 +983,51 @@ coverImages: [
     isbnEbook: "",
     amazonUrl: ""
   }
+,
+  {
+    id: "a-good-man-hu-yaobang",
+
+    titleZh: "好人！胡耀邦",
+    titleEn: "A Good Man: Hu Yaobang",
+
+    subtitleZh: "一部关于人性温暖与道德勇气的小说",
+    subtitleEn: "A Novel of Human Warmth and Moral Courage",
+
+    authorZh: "韩京",
+    authorEn: "Han Jing",
+
+    category: "history-literature",
+    categoryZh: "历史与文学",
+    categoryEn: "History & Literature",
+
+    tags: [
+      "胡耀邦",
+      "中国历史",
+      "人物小说",
+      "道德勇气",
+      "人性",
+      "Hu Yaobang",
+      "Chinese history",
+      "historical novel",
+      "moral courage"
+    ],
+
+    descriptionZh: "一部以胡耀邦为主题的历史人物小说，通过信任、良知与道德勇气，展现一个人在时代风雨中坚持善良的故事。",
+    descriptionEn: "A historical novel about Hu Yaobang, portraying trust, conscience, and the courage to remain decent through a turbulent period of history.",
+
+    formats: ["paperback"],
+    formatZh: "纸书",
+    formatEn: "Print",
+
+    publishDate: "",
+    featured: true,
+    comingSoon: false,
+
+    coverImage: "data/images/books/a-good-man-hu-yaobang.jpg",
+
+    isbnPaperback: "",
+    isbnHardcover: "",
+    isbnEbook: "",
+    amazonUrl: ""
+  }
 ];
