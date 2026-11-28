@@ -702,4 +702,48 @@ window.BOOKS = [
     isbnEbook: "",
     amazonUrl: ""
   }
+,
+  {
+    id: "this-card-walked-me-through-three-divorces",
+
+    titleZh: "这张卡陪我走过三次离婚",
+    titleEn: "This Card Walked Me Through Three Divorces",
+
+    authorZh: "丽莎",
+    authorEn: "Lisa",
+
+    category: "relationships",
+    categoryZh: "情感与关系",
+    categoryEn: "Relationships & Emotions",
+
+    tags: [
+      "婚姻",
+      "离婚",
+      "人生选择",
+      "情感",
+      "成长",
+      "marriage",
+      "divorce",
+      "relationships",
+      "personal growth"
+    ],
+
+    descriptionZh: "一部关于三段婚姻、三次离婚与人生重新开始的情感作品，讲述主人公如何在责任、理性与自我之间寻找新的生活。",
+    descriptionEn: "An emotional story of three marriages, three divorces, and new beginnings, following a person's search for life beyond duty, stability, and expectation.",
+
+    formats: ["paperback"],
+    formatZh: "纸书",
+    formatEn: "Print",
+
+    publishDate: "",
+    featured: false,
+    comingSoon: false,
+
+    coverImage: "data/images/books/this-card-walked-me-through-three-divorces.jpg",
+
+    isbnPaperback: "",
+    isbnHardcover: "",
+    isbnEbook: "",
+    amazonUrl: ""
+  }
 ];
