@@ -340,6 +340,12 @@ coverImages: [
 
     coverImage: "data/images/books/never-ending-monday.jpg",
 
+coverImages: [
+  "data/images/books/never-ending-monday.jpg",
+  "data/images/books/never-ending-monday-2.jpg"
+],
+    
+
     isbnPaperback: "",
     isbnHardcover: "",
     isbnEbook: "",
