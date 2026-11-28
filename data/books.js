@@ -795,4 +795,48 @@ window.BOOKS = [
     isbnEbook: "",
     amazonUrl: ""
   }
+,
+  {
+    id: "last-normal-person-in-this-building",
+
+    titleZh: "这栋楼里最后一个正常人",
+    titleEn: "The Last Normal Person in This Building",
+
+    authorZh: "韩京",
+    authorEn: "Han Jing",
+
+    category: "fiction",
+    categoryZh: "悬疑与科幻小说",
+    categoryEn: "Mystery & Science Fiction",
+
+    tags: [
+      "悬疑",
+      "科幻",
+      "都市",
+      "心理",
+      "神秘事件",
+      "mystery",
+      "science fiction",
+      "urban fiction",
+      "psychological thriller"
+    ],
+
+    descriptionZh: "一栋看似普通的城市大楼逐渐被神秘事件笼罩，而主人公发现自己可能是楼里最后一个保持正常的人。",
+    descriptionEn: "A seemingly ordinary city building is overtaken by mysterious events, leaving one man to wonder whether he is the last normal person inside.",
+
+    formats: ["paperback"],
+    formatZh: "纸书",
+    formatEn: "Print",
+
+    publishDate: "",
+    featured: false,
+    comingSoon: false,
+
+    coverImage: "data/images/books/last-normal-person-in-this-building.jpg",
+
+    isbnPaperback: "",
+    isbnHardcover: "",
+    isbnEbook: "",
+    amazonUrl: ""
+  }
 ];
