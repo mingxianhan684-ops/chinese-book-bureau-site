@@ -428,4 +428,48 @@ window.BOOKS = [
     isbnEbook: "",
     amazonUrl: ""
   }
+,
+  {
+    id: "parasites-of-the-red-mansion",
+
+    titleZh: "红色大厦的蛀虫",
+    titleEn: "The Parasites of the Red Mansion",
+
+    authorZh: "田野",
+    authorEn: "Tian Ye",
+
+    category: "politics-society",
+    categoryZh: "政治与社会",
+    categoryEn: "Politics & Society",
+
+    tags: [
+      "政治",
+      "社会",
+      "腐败",
+      "权力",
+      "社会批判",
+      "politics",
+      "corruption",
+      "power",
+      "social criticism"
+    ],
+
+    descriptionZh: "一部围绕权力、腐败与社会问题展开的政治和社会评论作品，探讨制度内部的矛盾及其影响。",
+    descriptionEn: "A work of political and social commentary examining power, corruption, institutional conflict, and their effects on society.",
+
+    formats: ["paperback"],
+    formatZh: "纸书",
+    formatEn: "Print",
+
+    publishDate: "",
+    featured: false,
+    comingSoon: false,
+
+    coverImage: "data/images/books/parasites-of-the-red-mansion.jpg",
+
+    isbnPaperback: "",
+    isbnHardcover: "",
+    isbnEbook: "",
+    amazonUrl: ""
+  }
 ];
